@@ -1,0 +1,4 @@
+strategy,total_time_min,approx_distance_km,overlap_edges,workload_std_stops,fuel_liters,co2_kg,tw_violations,% reduction vs Tier 1 (naive)
+Tier 1: Naive NN per zone,644.0,268.33,0,2.61,76.67,205.47,0,0.0
+Tier 2: K-Means + TSP per zone,613.0,255.42,0,2.61,72.98,195.58,0,4.8
+Tier 3: Joint CVRP + Time Windows (final),594.0,247.5,0,10.07,70.71,189.51,0,7.8
